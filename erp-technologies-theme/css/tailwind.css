@@ -2907,6 +2907,10 @@ video {
   flex: 1 1 0%;
 }
 
+.tw-grow {
+  flex-grow: 1;
+}
+
 .tw-basis-1\/12 {
   flex-basis: 8.333333%;
 }
@@ -4176,6 +4180,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.tw-pt-8 {
+  padding-top: 2rem;
+}
+
 .tw-text-center {
   text-align: center;
 }
@@ -4542,6 +4550,10 @@ video {
     width: auto;
   }
 
+  .md\:tw-w-1\/2 {
+    width: 50%;
+  }
+
   .md\:tw-max-w-3xl {
     max-width: 48rem;
   }
@@ -4562,6 +4574,10 @@ video {
 
   .md\:tw-grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .md\:tw-items-end {
+    align-items: flex-end;
   }
 
   .md\:tw-items-center {
@@ -4636,6 +4652,10 @@ video {
     margin-right: auto;
   }
 
+  .lg\:tw-w-11\/12 {
+    width: 91.666667%;
+  }
+
   .lg\:-tw-translate-x-3\/4 {
     --tw-translate-x: -75%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4687,5 +4707,11 @@ video {
 
   .xl\:tw-p-14 {
     padding: 3.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:tw-w-64 {
+    width: 16rem;
   }
 }
